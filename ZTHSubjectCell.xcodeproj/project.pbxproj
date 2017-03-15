@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E164E0871E791FF300E2B880 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0861E791FF300E2B880 /* main.m */; };
+		E164E08A1E791FF300E2B880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0891E791FF300E2B880 /* AppDelegate.m */; };
+		E164E0901E791FF300E2B880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E164E08E1E791FF300E2B880 /* Main.storyboard */; };
+		E164E0921E791FF300E2B880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E164E0911E791FF300E2B880 /* Assets.xcassets */; };
+		E164E0951E791FF300E2B880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E164E0931E791FF300E2B880 /* LaunchScreen.storyboard */; };
+		E164E0A61E79228700E2B880 /* ZTHBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E09E1E79228700E2B880 /* ZTHBaseTableViewCell.m */; };
+		E164E0A71E79228700E2B880 /* ZTHHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0A31E79228700E2B880 /* ZTHHomeTableViewController.m */; };
+		E164E0AC1E79229D00E2B880 /* SCYQuestionAnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0A91E79229D00E2B880 /* SCYQuestionAnswerCell.m */; };
+		E164E0AD1E79229D00E2B880 /* SCYQuestionAnswerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0AB1E79229D00E2B880 /* SCYQuestionAnswerView.m */; };
+		E164E0B21E79232D00E2B880 /* HLayerAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0AF1E79232D00E2B880 /* HLayerAddition.m */; };
+		E164E0B31E79232D00E2B880 /* HUIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0B11E79232D00E2B880 /* HUIView+Category.m */; };
+		E164E0B81E79235600E2B880 /* NSArray+CDArrayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0B51E79235600E2B880 /* NSArray+CDArrayAdditions.m */; };
+		E164E0B91E79235600E2B880 /* NSMutableDictionary+CDMutableDictAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0B71E79235600E2B880 /* NSMutableDictionary+CDMutableDictAdditions.m */; };
+		E164E0C21E79238A00E2B880 /* ZTHQuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0C01E79238A00E2B880 /* ZTHQuestionModel.m */; };
+		E164E0C51E7923BA00E2B880 /* ZTHDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0C41E7923BA00E2B880 /* ZTHDataSourceManager.m */; };
+		E164E0C81E79247B00E2B880 /* NSString+StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0C71E79247B00E2B880 /* NSString+StringSize.m */; };
+		E164E0CB1E79279000E2B880 /* ZTHAnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E164E0CA1E79279000E2B880 /* ZTHAnswerModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E164E0821E791FF300E2B880 /* ZTHSubjectCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTHSubjectCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E164E0861E791FF300E2B880 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E164E0881E791FF300E2B880 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ZTHSubjectCell/AppDelegate.h; sourceTree = "<group>"; };
+		E164E0891E791FF300E2B880 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ZTHSubjectCell/AppDelegate.m; sourceTree = "<group>"; };
+		E164E08F1E791FF300E2B880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E164E0911E791FF300E2B880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ZTHSubjectCell/Assets.xcassets; sourceTree = "<group>"; };
+		E164E0941E791FF300E2B880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E164E0961E791FF300E2B880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E164E09D1E79228700E2B880 /* ZTHBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHBaseTableViewCell.h; sourceTree = "<group>"; };
+		E164E09E1E79228700E2B880 /* ZTHBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHBaseTableViewCell.m; sourceTree = "<group>"; };
+		E164E0A21E79228700E2B880 /* ZTHHomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHHomeTableViewController.h; sourceTree = "<group>"; };
+		E164E0A31E79228700E2B880 /* ZTHHomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHHomeTableViewController.m; sourceTree = "<group>"; };
+		E164E0A81E79229D00E2B880 /* SCYQuestionAnswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCYQuestionAnswerCell.h; sourceTree = "<group>"; };
+		E164E0A91E79229D00E2B880 /* SCYQuestionAnswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCYQuestionAnswerCell.m; sourceTree = "<group>"; };
+		E164E0AA1E79229D00E2B880 /* SCYQuestionAnswerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCYQuestionAnswerView.h; sourceTree = "<group>"; };
+		E164E0AB1E79229D00E2B880 /* SCYQuestionAnswerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCYQuestionAnswerView.m; sourceTree = "<group>"; };
+		E164E0AE1E79232D00E2B880 /* HLayerAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLayerAddition.h; sourceTree = "<group>"; };
+		E164E0AF1E79232D00E2B880 /* HLayerAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLayerAddition.m; sourceTree = "<group>"; };
+		E164E0B01E79232D00E2B880 /* HUIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HUIView+Category.h"; sourceTree = "<group>"; };
+		E164E0B11E79232D00E2B880 /* HUIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HUIView+Category.m"; sourceTree = "<group>"; };
+		E164E0B41E79235600E2B880 /* NSArray+CDArrayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CDArrayAdditions.h"; sourceTree = "<group>"; };
+		E164E0B51E79235600E2B880 /* NSArray+CDArrayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CDArrayAdditions.m"; sourceTree = "<group>"; };
+		E164E0B61E79235600E2B880 /* NSMutableDictionary+CDMutableDictAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+CDMutableDictAdditions.h"; sourceTree = "<group>"; };
+		E164E0B71E79235600E2B880 /* NSMutableDictionary+CDMutableDictAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+CDMutableDictAdditions.m"; sourceTree = "<group>"; };
+		E164E0BF1E79238A00E2B880 /* ZTHQuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHQuestionModel.h; sourceTree = "<group>"; };
+		E164E0C01E79238A00E2B880 /* ZTHQuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHQuestionModel.m; sourceTree = "<group>"; };
+		E164E0C31E7923BA00E2B880 /* ZTHDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHDataSourceManager.h; sourceTree = "<group>"; };
+		E164E0C41E7923BA00E2B880 /* ZTHDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHDataSourceManager.m; sourceTree = "<group>"; };
+		E164E0C61E79247B00E2B880 /* NSString+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSize.h"; sourceTree = "<group>"; };
+		E164E0C71E79247B00E2B880 /* NSString+StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSize.m"; sourceTree = "<group>"; };
+		E164E0C91E79279000E2B880 /* ZTHAnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTHAnswerModel.h; sourceTree = "<group>"; };
+		E164E0CA1E79279000E2B880 /* ZTHAnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTHAnswerModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E164E07F1E791FF300E2B880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E164E0791E791FF300E2B880 = {
+			isa = PBXGroup;
+			children = (
+				E164E0881E791FF300E2B880 /* AppDelegate.h */,
+				E164E0891E791FF300E2B880 /* AppDelegate.m */,
+				E164E0911E791FF300E2B880 /* Assets.xcassets */,
+				E164E0841E791FF300E2B880 /* ZTHSubjectCell */,
+				E164E0831E791FF300E2B880 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E164E0831E791FF300E2B880 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E164E0821E791FF300E2B880 /* ZTHSubjectCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E164E0841E791FF300E2B880 /* ZTHSubjectCell */ = {
+			isa = PBXGroup;
+			children = (
+				E164E09C1E79228700E2B880 /* BaseClass */,
+				E164E09F1E79228700E2B880 /* category */,
+				E164E0A01E79228700E2B880 /* HomeClass */,
+				E164E0851E791FF300E2B880 /* Supporting Files */,
+			);
+			path = ZTHSubjectCell;
+			sourceTree = "<group>";
+		};
+		E164E0851E791FF300E2B880 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E164E08E1E791FF300E2B880 /* Main.storyboard */,
+				E164E0931E791FF300E2B880 /* LaunchScreen.storyboard */,
+				E164E0961E791FF300E2B880 /* Info.plist */,
+				E164E0861E791FF300E2B880 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E164E09C1E79228700E2B880 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				E164E09D1E79228700E2B880 /* ZTHBaseTableViewCell.h */,
+				E164E09E1E79228700E2B880 /* ZTHBaseTableViewCell.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		E164E09F1E79228700E2B880 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				E164E0C61E79247B00E2B880 /* NSString+StringSize.h */,
+				E164E0C71E79247B00E2B880 /* NSString+StringSize.m */,
+				E164E0AE1E79232D00E2B880 /* HLayerAddition.h */,
+				E164E0AF1E79232D00E2B880 /* HLayerAddition.m */,
+				E164E0B01E79232D00E2B880 /* HUIView+Category.h */,
+				E164E0B11E79232D00E2B880 /* HUIView+Category.m */,
+				E164E0B41E79235600E2B880 /* NSArray+CDArrayAdditions.h */,
+				E164E0B51E79235600E2B880 /* NSArray+CDArrayAdditions.m */,
+				E164E0B61E79235600E2B880 /* NSMutableDictionary+CDMutableDictAdditions.h */,
+				E164E0B71E79235600E2B880 /* NSMutableDictionary+CDMutableDictAdditions.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		E164E0A01E79228700E2B880 /* HomeClass */ = {
+			isa = PBXGroup;
+			children = (
+				E164E0A11E79228700E2B880 /* controller */,
+				E164E0A41E79228700E2B880 /* model */,
+				E164E0A51E79228700E2B880 /* view */,
+			);
+			path = HomeClass;
+			sourceTree = "<group>";
+		};
+		E164E0A11E79228700E2B880 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E164E0A21E79228700E2B880 /* ZTHHomeTableViewController.h */,
+				E164E0A31E79228700E2B880 /* ZTHHomeTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E164E0A41E79228700E2B880 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E164E0C31E7923BA00E2B880 /* ZTHDataSourceManager.h */,
+				E164E0C41E7923BA00E2B880 /* ZTHDataSourceManager.m */,
+				E164E0BF1E79238A00E2B880 /* ZTHQuestionModel.h */,
+				E164E0C01E79238A00E2B880 /* ZTHQuestionModel.m */,
+				E164E0C91E79279000E2B880 /* ZTHAnswerModel.h */,
+				E164E0CA1E79279000E2B880 /* ZTHAnswerModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E164E0A51E79228700E2B880 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E164E0A81E79229D00E2B880 /* SCYQuestionAnswerCell.h */,
+				E164E0A91E79229D00E2B880 /* SCYQuestionAnswerCell.m */,
+				E164E0AA1E79229D00E2B880 /* SCYQuestionAnswerView.h */,
+				E164E0AB1E79229D00E2B880 /* SCYQuestionAnswerView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E164E0811E791FF300E2B880 /* ZTHSubjectCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E164E0991E791FF300E2B880 /* Build configuration list for PBXNativeTarget "ZTHSubjectCell" */;
+			buildPhases = (
+				E164E07E1E791FF300E2B880 /* Sources */,
+				E164E07F1E791FF300E2B880 /* Frameworks */,
+				E164E0801E791FF300E2B880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTHSubjectCell;
+			productName = ZTHSubjectCell;
+			productReference = E164E0821E791FF300E2B880 /* ZTHSubjectCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E164E07A1E791FF300E2B880 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "朱同海";
+				TargetAttributes = {
+					E164E0811E791FF300E2B880 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 8T2MC62VZ6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E164E07D1E791FF300E2B880 /* Build configuration list for PBXProject "ZTHSubjectCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E164E0791E791FF300E2B880;
+			productRefGroup = E164E0831E791FF300E2B880 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E164E0811E791FF300E2B880 /* ZTHSubjectCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E164E0801E791FF300E2B880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E164E0951E791FF300E2B880 /* LaunchScreen.storyboard in Resources */,
+				E164E0921E791FF300E2B880 /* Assets.xcassets in Resources */,
+				E164E0901E791FF300E2B880 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E164E07E1E791FF300E2B880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E164E08A1E791FF300E2B880 /* AppDelegate.m in Sources */,
+				E164E0B91E79235600E2B880 /* NSMutableDictionary+CDMutableDictAdditions.m in Sources */,
+				E164E0B81E79235600E2B880 /* NSArray+CDArrayAdditions.m in Sources */,
+				E164E0A71E79228700E2B880 /* ZTHHomeTableViewController.m in Sources */,
+				E164E0AC1E79229D00E2B880 /* SCYQuestionAnswerCell.m in Sources */,
+				E164E0871E791FF300E2B880 /* main.m in Sources */,
+				E164E0AD1E79229D00E2B880 /* SCYQuestionAnswerView.m in Sources */,
+				E164E0A61E79228700E2B880 /* ZTHBaseTableViewCell.m in Sources */,
+				E164E0C21E79238A00E2B880 /* ZTHQuestionModel.m in Sources */,
+				E164E0C51E7923BA00E2B880 /* ZTHDataSourceManager.m in Sources */,
+				E164E0B21E79232D00E2B880 /* HLayerAddition.m in Sources */,
+				E164E0B31E79232D00E2B880 /* HUIView+Category.m in Sources */,
+				E164E0CB1E79279000E2B880 /* ZTHAnswerModel.m in Sources */,
+				E164E0C81E79247B00E2B880 /* NSString+StringSize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E164E08E1E791FF300E2B880 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E164E08F1E791FF300E2B880 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E164E0931E791FF300E2B880 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E164E0941E791FF300E2B880 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E164E0971E791FF300E2B880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E164E0981E791FF300E2B880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E164E09A1E791FF300E2B880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8T2MC62VZ6;
+				INFOPLIST_FILE = ZTHSubjectCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZTHSubjectCell.ZTHSubjectCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E164E09B1E791FF300E2B880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8T2MC62VZ6;
+				INFOPLIST_FILE = ZTHSubjectCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZTHSubjectCell.ZTHSubjectCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E164E07D1E791FF300E2B880 /* Build configuration list for PBXProject "ZTHSubjectCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E164E0971E791FF300E2B880 /* Debug */,
+				E164E0981E791FF300E2B880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E164E0991E791FF300E2B880 /* Build configuration list for PBXNativeTarget "ZTHSubjectCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E164E09A1E791FF300E2B880 /* Debug */,
+				E164E09B1E791FF300E2B880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E164E07A1E791FF300E2B880 /* Project object */;
+}
